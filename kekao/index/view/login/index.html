@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<style>
+    dl{
+        text-align:center;
+        border:2px solid #00CC99;
+        margin-top:100px;
+        margin-bottom:100px;
+        margin-right:400px;
+        margin-left:400px;
+    }
+</style>
+<body>
+<div id="login_form">
+    <form action="/public/index.php/index/login/login" method="post">
+        <dl>
+            <dt>
+                <h2>欢迎访问商品信息平台</h2>
+                <h1>登录页面</h1>
+                <p>用户名：<input type="text" name="user_name"></p>
+            </dt>
+            <dt>
+                <p>密码：<input type="password" name="user_passwd"></p>
+            </dt>
+            <dt>
+                <p>管理员<input type="radio" name="shenfen" value="2">用户<input type="radio" name="shenfen" value="1"></p>
+            </dt>
+            <dt>
+            </dt>
+            <dt>
+                <p><input type="submit" value="登录">&nbsp;&nbsp;&nbsp;&nbsp;<a href="/public/index.php/index/regist/index">注册</a></p>
+            </dt>
+        </dl>
+    </form>
+</div>
+<div><h2>作者：郑星鹏</h2></div>
+<div><h2>唯一管理员账户(用户名:admin密码:admin)</h2></div>
+</body>
+</html>

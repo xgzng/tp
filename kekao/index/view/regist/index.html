@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>注册</title>
+</head>
+<style>
+    dl{
+        text-align:center;
+        border:2px solid #008800;
+        margin-top:100px;
+        margin-bottom:100px;
+        margin-right:500px;
+        margin-left:500px;
+    }
+</style>
+<body>
+<div id="regist_form">
+    <dl>
+        <form action="/public/index.php/index/regist/regist" method="post">
+            <dt>
+                <h2>欢迎注册商品信息平台</h2>
+                <h1>用户注册页面</h1>
+                <p>用户名:<input type="text" name="UserName"></p>
+            </dt>
+
+            <dt>
+                <p>密码:<input type="password" name="UserPasswd"></p>
+            </dt>
+
+            <dt>
+                <p><input type="submit" value="注册">&nbsp;&nbsp;&nbsp;&nbsp;<a href="/public/index.php/index/login/index">登录</a></p>
+            </dt>
+        </form>
+    </dl>
+</div>
+</body>
+</html>
